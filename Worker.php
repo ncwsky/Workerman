@@ -33,7 +33,7 @@ class Worker
      *
      * @var string
      */
-    const VERSION = '4.0.3';
+    const VERSION = '3.5.29';
 
     /**
      * Status starting.
@@ -213,7 +213,7 @@ class Worker
     /**
      * Store all connections of clients.
      *
-     * @var TcpConnection[]
+     * @var array
      */
     public $connections = array();
 
